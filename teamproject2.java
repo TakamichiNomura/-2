@@ -3,8 +3,8 @@ import java.util.*;
 /**
  * Write a description of class teamproject2 here.
  *
- * @author (2018243144노무라타카미치)
- * @version (20191007)
+ * @author (2018243144노무라타)
+ * @version (a version number or a date)
  */
 public class teamproject2
 {
