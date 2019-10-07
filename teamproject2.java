@@ -7,7 +7,7 @@ import java.util.*;
  */
 public class teamproject2
 {
-    public static void main(String[] args){
+    public void MakeMap(){
         var hm = new HashMap<String,Integer>();
         try{
             Scanner scan = new Scanner(new FileReader("c:\\Temp\\inputData20191007.txt"));

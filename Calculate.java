@@ -2,14 +2,15 @@ import java.util.*;
 /**
  * Write a description of class Colculate here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (2018243144노무라타카미치 , 2018315021 방대호)
+ * @version (20191007)
  */
 public class Calculate extends teamproject2
 {
     public static void main(String [] args){
+        MakeMap mm = new MakeMap();
         Iterator<String> it = hm.keySet().iterator();
-        int total;
+        int total = 0;
         while(it.hasNext()){
             String name = it.next();
             total =+ hm.get(name);            
@@ -17,6 +18,5 @@ public class Calculate extends teamproject2
         System.out.println("------ 계산 결과 ------");
         System.out.println("총점 : " + total);
         System.out.println("평균 : " + total / hm.size());
-        
     }
 }
