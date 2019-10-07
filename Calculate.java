@@ -5,18 +5,18 @@ import java.util.*;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Calculate
+public class Calculate extends teamproject2
 {
     public static void main(String [] args){
         Iterator<String> it = hm.keySet().iterator();
-        
+        int total;
         while(it.hasNext()){
             String name = it.next();
-            int total =+ hm.get(name);            
+            total =+ hm.get(name);            
         }
         System.out.println("------ 계산 결과 ------");
         System.out.println("총점 : " + total);
-        System.out.println("평균 : " + total / a.size());
+        System.out.println("평균 : " + total / hm.size());
         
     }
 }

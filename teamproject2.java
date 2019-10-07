@@ -22,5 +22,16 @@ public class teamproject2
         }catch(IOException e){
             System.out.println("파일이 없습니다.");
         }
+        
+        Iterator<String> it = hm.keySet().iterator();
+        int total = 0;
+        while(it.hasNext()){
+            String name = it.next();
+            int ss = hm.get(name);    
+            total += ss;
+        }
+        System.out.println("------ 계산 결과 ------");
+        System.out.println("총점 : " + total);
+        System.out.println("평균 : " + (double)total / hm.size());
     }
 }
