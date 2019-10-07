@@ -16,7 +16,8 @@ public class teamproject2
                 String word = scan.nextLine(); 
                 StringTokenizer st = new StringTokenizer(word, " ");
                 String name = st.nextToken();
-                String score = st.nextToken();
+                String s = st.nextToken();
+                int score = Integer.parseInt(s);
             }
         }catch(IOException e){
             System.out.println("파일이 없습니다.");
