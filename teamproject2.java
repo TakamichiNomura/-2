@@ -2,14 +2,8 @@ import java.io.*;
 import java.util.*;
 /**
  * Write a description of class teamproject2 here.
- *
-<<<<<<< HEAD
- * @author (2018243144노무라타)
- * @version (a version number or a date)
-=======
  * @author (2018243144노무라타카미치 , 2018315021 방대호)
  * @version (20191007)
->>>>>>> 7ecc0cb4da566e94c47ff9e4bf47f6eaeaeeb92a
  */
 public class teamproject2
 {
@@ -23,6 +17,7 @@ public class teamproject2
                 String name = st.nextToken();
                 String s = st.nextToken();
                 int score = Integer.parseInt(s);
+                hm.put(name, score);
             }
         }catch(IOException e){
             System.out.println("파일이 없습니다.");
