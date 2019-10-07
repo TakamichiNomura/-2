@@ -18,7 +18,6 @@ public class Calculate extends teamproject2
         }
         System.out.println("------ 계산 결과 ------");
         System.out.println("총점 : " + total);
-        System.out.println("평균 : " + total / hm.size());
         System.out.println("평균 : " + (double)total / hm.size());  
     }
 }
