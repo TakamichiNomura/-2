@@ -8,12 +8,12 @@ import java.util.*;
 public class Calculate
 {
     public static void main(String [] args){
-        Set<String> Keys = a.KeySet();
+        Set<String> Keys = hm.KeySet();
         Iterator<String> it = Keys.iterator();
         
         while(it.hasNext()){
             String name = it.next();
-            int total =+ a.get(name);            
+            int total =+ hm.get(name);            
         }
         System.out.println("------ 계산 결과 ------");
         System.out.println("총점 : " + total);
