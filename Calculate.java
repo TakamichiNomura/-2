@@ -12,7 +12,7 @@ public class Calculate
         
         while(it.hasNext()){
             String name = it.next();
-            int total =+ a.get(name);            
+            int total =+ hm.get(name);            
         }
         System.out.println("------ 계산 결과 ------");
         System.out.println("총점 : " + total);
